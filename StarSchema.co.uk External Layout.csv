@@ -1,0 +1,37 @@
+Income Statement Key,Line name,Calculation type,1st From,1st To,2nd From,2nd To,Is Hidden,Format string default
+1,Revenue:,Blank,,,,,No,0;0-0;;@
+2,   B2B,Line item,10100,10130,,,No,"#,##0,;(#,##0,);-"
+3,   B2C,Line item,10200,10230,,,No,"#,##0,;(#,##0,);-"
+4,     Total revenue,Subtotal NCLD,2,3,,,No,"#,##0,;(#,##0,);-"
+5,,Blank,,,,,No,0;0-0;;@
+6,Cost of Revenue:,Blank,,,,,No,0;0-0;;@
+7,   B2B  ,Line item,20100,20140,,,No,"#,##0,;(#,##0,);-"
+8,   B2C ,Line item,20200,20240,,,No,"#,##0,;(#,##0,);-"
+9,     Total cost of revenue,Subtotal NCLD,7,8,,,No,"#,##0,;(#,##0,);-"
+10,     Gross margin,Subtotal NCLD,2,8,,,No,"#,##0,;(#,##0,);-"
+11, ,Blank,,,,,No,0;0-0;;@
+12,Labour,Line item,30100,30180,50100,50160,No,"#,##0,;(#,##0,);-"
+13,Sales and Marketing,Line item,40100,40130,,,No,"#,##0,;(#,##0,);-"
+14,Research and Development,Line item,60100,60120,,,No,"#,##0,;(#,##0,);-"
+15,  ,Blank,,,,,No,0;0-0;;@
+16,EBITDA,Subtotal NCLD,2,14,,,No,"#,##0,;(#,##0,);-"
+17,Depreciation ,Line item,70100,70140,,,No,"#,##0,;(#,##0,);-"
+18,Amortization,Line item,70400,70430,,,No,"#,##0,;(#,##0,);-"
+19,   ,Blank,,,,,No,0;0-0;;@
+20,EBIT,Subtotal NCLD,2,18,,,No,"#,##0,;(#,##0,);-"
+21,"Other Income, net",Line item,10710,10720,,,No,"#,##0,;(#,##0,);-"
+22,    ,Blank,,,,,No,0;0-0;;@
+23,Profit Before Tax,Subtotal NCLD,2,21,,,No,"#,##0,;(#,##0,);-"
+24,Tax Provision,Line item,80100,80130,,,No,"#,##0,;(#,##0,);-"
+25,     ,Blank,,,,,No,0;0-0;;@
+26,Net Income ,Subtotal NCLD,2,24,,,No,"#,##0,;(#,##0,);-"
+27,  Net income attributable to non-controlling interests,NCI,,,,,No,"#,##0,;(#,##0,);-"
+28,  Net income attributable to controlling interests,CI,,,,,No,"#,##0,;(#,##0,);-"
+29,      ,Blank,,,,,No,0;0-0;;@
+30,Earnings per share:,Blank,,,,,No,0;0-0;;@
+31,  Basic EPS,Divide,28,35,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+32,  Core EPS,Divide,28,36,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+33,       ,Blank,,,,,No,0;0-0;;@
+34,Weighted average shares:,Blank,,,,,No,0;0-0;;@
+35,  Basic,Basic shares,,,,,No,"#,##0,;(#,##0,);-"
+36,  Core,Diluted shares,,,,,No,"#,##0,;(#,##0,);-"

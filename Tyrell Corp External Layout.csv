@@ -1,0 +1,29 @@
+﻿Income Statement Key,Line name,Calculation type,1st From,1st To,2nd From,2nd To,Is Hidden,Format string default
+1,Revenue:,Blank,,,,,No,0;0-0;;@
+2,     Product,Line item,10100,10200,,,No,"#,##0,,;(#,##0,,);-"
+3,     Service and other,Line item,10300,10400,,,No,"#,##0,,;(#,##0,,);-"
+4,          Total revenue,Subtotal NCLD,2,3,,,No,"#,##0,,;(#,##0,,);-"
+5,Cost of revenue:,Blank,,,,,No,0;0-0;;@
+6,     Product ,Line item,20100,20200,,,No,"#,##0,,;(#,##0,,);-"
+7,     Service and other  ,Line item,20300,20400,,,No,"#,##0,,;(#,##0,,);-"
+8,          Total cost of revenue,Subtotal NCLD,6,7,,,No,"#,##0,,;(#,##0,,);-"
+9,          Gross margin,Subtotal NCLD,2,7,,,No,"#,##0,,;(#,##0,,);-"
+10,Research and development,Line item,21100,21200,,,No,"#,##0,,;(#,##0,,);-"
+11,     Project T,Subset NCLD,21199,21199,,,No,"#,##0,,;(#,##0,,);-"
+12,Sales and marketing,Line item,22100,22200,24100,24200,No,"#,##0,,;(#,##0,,);-"
+13,General and administrative,Line item,23100,23200,,,No,"#,##0,,;(#,##0,,);-"
+14,Operating income,Subtotal NCLD,2,13,,,No,"#,##0,,;(#,##0,,);-"
+15,"Other income, net",Line item,11100,11200,,,No,"#,##0,,;(#,##0,,);-"
+16,Income before income taxes,Subtotal NCLD,2,15,,,No,"#,##0,,;(#,##0,,);-"
+17,Provision for income taxes,Line item,30100,30200,,,No,"#,##0,,;(#,##0,,);-"
+18,Net income,Subtotal NCLD,2,17,,,No,"#,##0,,;(#,##0,,);-"
+19,     Non-controlling interest,NCI,,,,,No,"#,##0,,;(#,##0,,);-"
+20,     Controlling interest,CI,,,,,No,"#,##0,,;(#,##0,,);-"
+21,,Blank,,,,,No,0;0-0;;@
+22,Earnings per share:,Blank,,,,,No,0;0-0;;@
+23,     Basic,Divide,20,27,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+24,     Diluted,Divide,20,28,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+25,  ,Blank,,,,,No,0;0-0;;@
+26,Weighted average shares outstanding:,Blank,,,,,No,0;0-0;;@
+27,     Basic     ,Basic shares,,,,,No,"#,##0,,;(#,##0,,);-"
+28,     Diluted     ,Diluted shares,,,,,No,"#,##0,,;(#,##0,,);-"

@@ -1,0 +1,57 @@
+Account Key,Account Name,Account Number and Name,Account Type,Account Type Indicator
+10100,B2B Trade Income,10100 - B2B Trade Income,Revenue,1
+10110,B2B Returns,10110 - B2B Returns,Revenue,1
+10120,B2B Volume Rebate,10120 - B2B Volume Rebate,Revenue,1
+10130,B2B Price Protection,10130 - B2B Price Protection,Revenue,1
+10200,B2C Trade Income,10200 - B2C Trade Income,Revenue,1
+10210,B2C Returns,10210 - B2C Returns,Revenue,1
+10220,B2C Volume Rebate,10230 - B2C Volume Rebate,Revenue,1
+10230,B2C Price Protection,10240 - B2C Price Protection,Revenue,1
+20100,B2B Cost of Materials,20100 - B2B Cost of Materials,Expenditure,-1
+20110,B2B Direct Labour,20110 - B2B Direct Labour,Expenditure,-1
+20120,B2B Warrenty ,20120 - B2B Warrenty ,Expenditure,-1
+20130,B2B Sales Commision,20130 - B2B Sales Commision,Expenditure,-1
+20140,B2B Other Cost of Revenue,20140 - B2B Other Cost of Revenue,Expenditure,-1
+20200,B2C Cost of Materials,20200 - B2C Cost of Materials,Expenditure,-1
+20210,B2C Direct Labour,20210 - B2C Direct Labour,Expenditure,-1
+20220,B2C Warrenty ,20220 - B2C Warrenty ,Expenditure,-1
+20230,B2C Sales Commision,20230 - B2C Sales Commision,Expenditure,-1
+20240,B2C Other Cost of Revenue,20240 - B2C Other Cost of Revenue,Expenditure,-1
+30100,Indirect Labour,30100 - Indirect Labour,Expenditure,-1
+30110,Contract Labour,30110 - Contract Labour,Expenditure,-1
+30120,Other Labour Costs,30120 - Other Labour Costs,Expenditure,-1
+30130,Agency Labour,30130 - Agency Labour,Expenditure,-1
+30140,Pension Wages,30140 - Pension Wages,Expenditure,-1
+30150,Pension,30150 - Pension,Expenditure,-1
+30160,Unfunded Pension Charge,30160 - Unfunded Pension Charge,Expenditure,-1
+30170,Pension Admin Costs,30170 - Pension Admin Costs,Expenditure,-1
+30180,Employers Pension,30180 - Employers Pension,Expenditure,-1
+40100,Internal Marketing,40100 - Internal Marketing,Expenditure,-1
+40110,Local Marketing,40110 - Local Marketing,Expenditure,-1
+40120,National Marketing,40120 - National Marketing,Expenditure,-1
+40130,Other Sales and Marketing,40130 - Other Sales and Marketing,Expenditure,-1
+50100,Air Fairs,50100 - Air Fairs,Expenditure,-1
+50110,Accomidation,50110 - Accomidation,Expenditure,-1
+50120,Car Hire,50120 - Car Hire,Expenditure,-1
+50130,Train Fairs,50130 - Train Fairs,Expenditure,-1
+50140,Other Travel,50140 - Other Travel,Expenditure,-1
+50150,Food,50150 - Food,Expenditure,-1
+50160,Other Travel and Expenses,50160 - Other Travel and Expenses,Expenditure,-1
+60100,Research,60100 - Research,Expenditure,-1
+60110,Development,60110 - Development,Expenditure,-1
+60120,Other R&D Costs,60120 - Other R&D Costs,Expenditure,-1
+70100,Depreciation Property,70100 - Depreciation Property,Expenditure,-1
+70110,Depreciation Assets Held for Sales,70110 - Depreciation Assets Held for Sales,Expenditure,-1
+70120,Depreciation Plant ,70120 - Depreciation Plant ,Expenditure,-1
+70130,Deperciation Equipment,70130 - Deperciation Equipment,Expenditure,-1
+70140,Deprecation Other,70140 - Deprecation Other,Expenditure,-1
+70400,Amortisation of Intangible Assets,70400 - Amortisation of Intangible Assets,Expenditure,-1
+70410,Overhead Amortisation,70410 - Overhead Amortisation,Expenditure,-1
+70420,Interest Amortisation,70420 - Interest Amortisation,Expenditure,-1
+70430,Other Amortisation,70430 - Other Amortisation,Expenditure,-1
+10710,Interest Income,10710 - Interest Income,Revenue,1
+10720,Other Income ,10720 - Other Income ,Revenue,1
+80100,Corperation Tax,80100 - Corperation Tax,Expenditure,-1
+80110,Deferred Tax,80110 - Deferred Tax,Expenditure,-1
+80120,Exceptional Tax Charge,80120 - Exceptional Tax Charge,Expenditure,-1
+80130,Other Tax,80130 - Other Tax,Expenditure,-1

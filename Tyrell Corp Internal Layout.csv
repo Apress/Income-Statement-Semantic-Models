@@ -1,0 +1,33 @@
+﻿Income Statement Key,Line name,Calculation type,1st From,1st To,2nd From,2nd To,Is Hidden,Format string default
+101,Revenue:  ,Blank,,,,,No,0;0-0;;@
+102,     Product      ,Line item,10100,10200,,,No,"#,##0,,;(#,##0,,);-"
+103,     Service and other      ,Line item,10300,10400,,,No,"#,##0,,;(#,##0,,);-"
+104,          Total revenue  ,Subtotal NCLD,102,103,,,No,"#,##0,,;(#,##0,,);-"
+105,Cost of revenue:  ,Blank,,,,,No,0;0-0;;@
+106,     Product     ,Line item,20100,20200,,,No,"#,##0,,;(#,##0,,);-"
+107,     Service and other       ,Line item,20300,20400,,,No,"#,##0,,;(#,##0,,);-"
+108,          Total cost of revenue  ,Subtotal NCLD,106,107,,,No,"#,##0,,;(#,##0,,);-"
+109,          Gross margin  ,Subtotal NCLD,102,107,,,No,"#,##0,,;(#,##0,,);-"
+110,"          Gross margin, %",Divide,109,104,,,No,"#,##0.0%;(#,##0.0%);-"
+111,Research and development  ,Line item,21100,21200,,,No,"#,##0,,;(#,##0,,);-"
+112,     Project T  ,Subset NCLD,21199,21199,,,No,"#,##0,,;(#,##0,,);-"
+113,Sales and marketing  ,Line item,22100,22200,24100,24200,No,"#,##0,,;(#,##0,,);-"
+114,General and administrative  ,Line item,23100,23200,,,No,"#,##0,,;(#,##0,,);-"
+115,Operating income  ,Subtotal NCLD,102,114,,,No,"#,##0,,;(#,##0,,);-"
+116,"Other income, net  ",Line item,11100,11200,,,No,"#,##0,,;(#,##0,,);-"
+117,Income before income taxes  ,Subtotal NCLD,102,116,,,No,"#,##0,,;(#,##0,,);-"
+118,Provision for income taxes  ,Line item,30100,30200,,,No,"#,##0,,;(#,##0,,);-"
+119,Net income  ,Subtotal NCLD,102,118,,,No,"#,##0,,;(#,##0,,);-"
+120,"Net income, %",Divide,119,104,,,No,"#,##0.0%;(#,##0.0%);-"
+121,     Non-controlling interest  ,NCI,,,,,No,"#,##0,,;(#,##0,,);-"
+122,     Controlling interest  ,CI,,,,,No,"#,##0,,;(#,##0,,);-"
+123,    ,Blank,,,,,No,0;0-0;;@
+124,Earnings per share: ,Blank,,,,,No,0;0-0;;@
+125,     Basic      ,Divide,122,129,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+126,     Diluted      ,Divide,122,130,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+127,      ,Blank,,,,,No,0;0-0;;@
+128,Weighted average shares outstanding: ,Blank,,,,,No,0;0-0;;@
+129,     Basic           ,Basic shares,,,,,No,"#,##0,,;(#,##0,,);-"
+130,     Diluted           ,Diluted shares,,,,,No,"#,##0,,;(#,##0,,);-"
+131,            ,Blank,,,,,No,0;0-0;;@
+132,Net promoter score,NPS,,,,,No,"#,##0;(#,##0);-"

@@ -1,0 +1,25 @@
+﻿Income Statement Key,Line name,Calculation type,1st From,1st To,2nd From,2nd To,Is Hidden,Format string default
+1,Revenues and other income,Blank,,,,,No,0;0-0;;@
+2,Sales and other operating revenue,Line item,10100,10199,,,No,"#,##0,,;(#,##0,,);-"
+3,Income from equity affialiates,Line item,10200,10299,,,No,"#,##0,,;(#,##0,,);-"
+4,Other income,Line item,10300,10399,,,No,"#,##0,,;(#,##0,,);-"
+5,Total revenues ,Subtotal NDLC,2,4,,,No,"#,##0,,;(#,##0,,);-"
+6,Costs ,Blank,,,,,No,0;0-0;;@
+7,Product purchases,Line item,20100,20199,,,No,"#,##0,,;(#,##0,,);-"
+8,Manufacturing expense,Line item,20200,20299,,,No,"#,##0,,;(#,##0,,);-"
+9,Administrative expense,Line item,20300,20399,,,No,"#,##0,,;(#,##0,,);-"
+10,Depreciation and impairments,Line item,20400,20499,,,No,"#,##0,,;(#,##0,,);-"
+11,Exporation expense,Line item,20500,20599,,,No,"#,##0,,;(#,##0,,);-"
+12,Postretirement benefit,Line item,20600,20699,,,No,"#,##0,,;(#,##0,,);-"
+13,Interest ,Line item,20700,20799,,,No,"#,##0,,;(#,##0,,);-"
+14,Duties,Line item,20800,20899,,,No,"#,##0,,;(#,##0,,);-"
+15,Total costs ,Subtotal NDLC,6,14,,,No,"#,##0,,;(#,##0,,);-"
+16,Income (loss) before income taxes,Subtotal NDLC,2,14,,,No,"#,##0,,;(#,##0,,);-"
+17,Tax expense,Line item,30100,30199,,,No,"#,##0,,;(#,##0,,);-"
+18,Net income (loss) ,Subtotal NDLC,2,17,,,No,"#,##0,,;(#,##0,,);-"
+19,Net income (loss) attributable to non controlling interests ,NCI,,,,,No,"#,##0,,;(#,##0,,);-"
+20,Net income (loss) attributable to controlling interests,CI,,,,,No,"#,##0,,;(#,##0,,);-"
+21, ,Blank,,,,,No,0;0-0;;@
+22,Earnings (loss) per common share,Divide,20,24,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+23,    ,Blank,,,,,Yes,0;0-0;;@
+24,Number of Shares,Basic number of shares,,,,,Yes,"#,##0,,;(#,##0,,);-"

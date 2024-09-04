@@ -1,0 +1,20 @@
+﻿Account Key,Account Name,Account Number and Name,Account Type
+10100,Product Sales,10100 - Product Sales,Revenue
+10199,Product Discounts,10199 - Product Discounts,Revenue
+10300,Service and Other Sales,10300 - Service and Other Sales,Revenue
+10399,Service and Other Discounts,10399 - Service and Other Discounts,Revenue
+20100,Product cost of sales,20100 - Product cost of sales,Expenditure
+20199,Product Royalties,20199 - Product Royalties,Expenditure
+20300,Service and Other cost of Sales,20300 - Service and Other cost of Sales,Expenditure
+20399,Service and Other Royalties,20399 - Service and Other Royalties,Expenditure
+21100,Research,21100 - Research,Expenditure
+21199,Project T,21199 - Project T,Expenditure
+22100,Sales,22100 - Sales,Expenditure
+22199,Marketing,22199 - Marketing,Expenditure
+24100,Advertising,24100 - Advertising,Expenditure
+23100,General costs,23100 - General costs,Expenditure
+23199,Administrative costs,23199 - Administrative costs,Expenditure
+11100,Interest increase,11100 - Interest increase,Revenue
+11199,Interest decrease,11199 - Interest decrease,Revenue
+30100,Provision for local taxes,30100 - Provision for local taxes,Expenditure
+30199,Provision for group taxes,30199 - Provision for group taxes,Expenditure

@@ -1,0 +1,50 @@
+Income Statement Key,Line name,Calculation type,1st From,1st To,2nd From,2nd To,Is Hidden,Format string default
+101,Revenue: ,Blank,,,,,No,0;0-0;;@
+102,   B2B   ,Line item,10100,10130,,,No,"#,##0,;(#,##0,);-"
+103,   B2C   ,Line item,10200,10230,,,No,"#,##0,;(#,##0,);-"
+104,     Total revenue ,Subtotal NCLD,102,103,,,No,"#,##0,;(#,##0,);-"
+105,                           ,Blank,,,,,No,0;0-0;;@
+106,Cost of Revenue:  ,Blank,,,,,No,0;0-0;;@
+107,   B2B     ,Line item,20100,20140,,,No,"#,##0,;(#,##0,);-"
+108,   B2C    ,Line item,20200,20240,,,No,"#,##0,;(#,##0,);-"
+109,     Total cost of revenue ,Subtotal NCLD,107,108,,,No,"#,##0,;(#,##0,);-"
+110,     Gross margin ,Subtotal NCLD,102,108,,,No,"#,##0,;(#,##0,);-"
+111,"     Gross margin, %",Divide,110,104,,,No,"#,##0.0%;(#,##0.0%);-"
+112,        ,Blank,,,,,No,0;0-0;;@
+113,Labour ,Line item,30100,30180,50100,50160,No,"#,##0,;(#,##0,);-"
+114,Sales and Marketing ,Line item,40100,40130,,,No,"#,##0,;(#,##0,);-"
+115,Research and Development ,Line item,60100,60120,,,No,"#,##0,;(#,##0,);-"
+116,         ,Blank,,,,,No,0;0-0;;@
+117,EBITDA ,Subtotal NCLD,102,115,,,No,"#,##0,;(#,##0,);-"
+118,"EBITDA, %",Divide,117,104,,,No,"#,##0.0%;(#,##0.0%);-"
+119,Depreciation  ,Line item,70100,70140,,,No,"#,##0,;(#,##0,);-"
+120,Amortization ,Line item,70400,70430,,,No,"#,##0,;(#,##0,);-"
+121,          ,Blank,,,,,No,0;0-0;;@
+122,EBIT ,Subtotal NCLD,102,120,,,No,"#,##0,;(#,##0,);-"
+123,"EBIT,%",Divide,122,104,,,No,"#,##0.0%;(#,##0.0%);-"
+124,"Other Income, net ",Line item,10710,10720,,,No,"#,##0,;(#,##0,);-"
+125,           ,Blank,,,,,No,0;0-0;;@
+126,Profit Before Tax ,Subtotal NCLD,102,124,,,No,"#,##0,;(#,##0,);-"
+127,Tax Provision ,Line item,80100,80130,,,No,"#,##0,;(#,##0,);-"
+128,            ,Blank,,,,,No,0;0-0;;@
+129,Net Income  ,Subtotal NCLD,102,127,,,No,"#,##0,;(#,##0,);-"
+130,"Net Income, %",Divide,129,104,,,No,"#,##0.0%;(#,##0.0%);-"
+131,  Net income attributable to non-controlling interests ,NCI,,,,,No,"#,##0,;(#,##0,);-"
+132,  Net income attributable to controlling interests ,CI,,,,,No,"#,##0,;(#,##0,);-"
+133,             ,Blank,,,,,No,0;0-0;;@
+134,Earnings per share: ,Blank,,,,,No,0;0-0;;@
+135,  Basic EPS ,Divide,132,139,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+136,  Core EPS ,Divide,132,140,,,No,""" $""#,##0.00;("" $""#,##0.00);-"
+137,              ,Blank,,,,,No,0;0-0;;@
+138,Weighted average shares: ,Blank,,,,,No,0;0-0;;@
+139,  Basic ,Basic shares,,,,,No,"#,##0,;(#,##0,);-"
+140,  Core ,Diluted shares,,,,,No,"#,##0,;(#,##0,);-"
+141,               ,Blank,,,,,No,0;0-0;;@
+142,Research,Subset NCLD,60100,60100,,,Yes,"#,##0,;(#,##0,);-"
+143,"Research, % of R&D",Divide,142,115,,,No,"#,##0.00%;(#,##0.00%);-"
+144,FTEs,FTE,,,,,No,"#,##0,;(#,##0,);-"
+145,Number FTEs Departing,FTE Attrition,,,,,Yes,"#,##0,;(#,##0,);-"
+146,Employee Attrition rate,Divide,145,144,,,No,"#,##0.00%;(#,##0.00%);-"
+147,                ,Blank,,,,,No,0;0-0;;@
+148,All sales leads >= 75% probability ,Sales 75,,,,,No,"#,##0,;(#,##0,);-"
+149,All sales leads >= 50% probability ,Sales 50,,,,,No,"#,##0,;(#,##0,);-"

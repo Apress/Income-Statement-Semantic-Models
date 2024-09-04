@@ -1,0 +1,25 @@
+﻿Account Key,Account Name,Account Number and Name,Account Type
+10100,CI  Sales and other operating revenue,10100 - CI  Sales and other operating revenue,Revenue
+10200,CI  Income from equity affialiates,10200 - CI  Income from equity affialiates,Revenue
+10300,CI  Other income,10300 - CI  Other income,Revenue
+20100,CI  Crude oil and product purchases,20100 - CI  Crude oil and product purchases,Expenditure
+20200,CI  Production and manufacturing expense,20200 - CI  Production and manufacturing expense,Expenditure
+20300,"CI  Sell, general and administrative expense","20300 - CI  Sell, general and administrative expense",Expenditure
+20400,CI  Depreciation and depletion (including impairments),20400 - CI  Depreciation and depletion (including impairments),Expenditure
+20500,"CI  Exporation expesnses, including dry holes","20500 - CI  Exporation expesnses, including dry holes",Expenditure
+20600,CI  Non-service pension and postretirement benefit expense,20600 - CI  Non-service pension and postretirement benefit expense,Expenditure
+20700,CI  Interest expense,20700 - CI  Interest expense,Expenditure
+20800,CI  Other taxes and duties,20800 - CI  Other taxes and duties,Expenditure
+30100,CI  Income tax expense (benefit),30100 - CI  Income tax expense (benefit),Expenditure
+10110,NCI Sales and other operating revenue,10110 - NCI Sales and other operating revenue,Revenue
+10210,NCI Income from equity affialiates,10210 - NCI Income from equity affialiates,Revenue
+10310,NCI Other income,10310 - NCI Other income,Revenue
+20110,NCI Crude oil and product purchases,20110 - NCI Crude oil and product purchases,Expenditure
+20210,NCI Production and manufacturing expense,20210 - NCI Production and manufacturing expense,Expenditure
+20310,"NCI Sell, general and administrative expense","20310 - NCI Sell, general and administrative expense",Expenditure
+20410,NCI Depreciation and depletion (including impairments),20410 - NCI Depreciation and depletion (including impairments),Expenditure
+20510,"NCI Exporation expesnses, including dry holes","20510 - NCI Exporation expesnses, including dry holes",Expenditure
+20610,NCI Non-service pension and postretirement benefit expense,20610 - NCI Non-service pension and postretirement benefit expense,Expenditure
+20710,NCI Interest expense,20710 - NCI Interest expense,Expenditure
+20810,NCI Other taxes and duties,20810 - NCI Other taxes and duties,Expenditure
+30110,NCI Income tax expense (benefit),30110 - NCI Income tax expense (benefit),Expenditure
